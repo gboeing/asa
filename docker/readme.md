@@ -24,11 +24,7 @@ docker run --rm -it --name asa -p 8888:8888 -v "$PWD":/home/jovyan/work gboeing/
 
 ### To access jupyter running in this container
 
-Open web browser and visit:
-
-```
-localhost:8888
-```
+Open web browser and visit [localhost:8888](localhost:8888)
 
 ### To access bash in this container:
 
