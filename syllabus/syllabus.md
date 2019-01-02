@@ -33,22 +33,22 @@ Coursework will be based on free and/or open-source software including Anaconda 
 
 ## Schedule
 
-Jan 09 - Module 00 - getting started
-Jan 16 - Module 01 - intro to python
-Jan 23 - Module 02 - intro to python
-Jan 30 - Module 03 - pandas data wrangling and analysis (assignment 1 due)
-Feb 06 - Module 04 - pandas data wrangling and analysis
-Feb 13 - Module 05 - data visualization (assignment 2 due)
-Feb 20 - Module 06 - geopandas and mapping
-Feb 27 - Module 07 - web mapping (assignment 3 due)
-Mar 06 - Spring break
-Mar 13 - Module 08 - APIs, geocoding, geolocation
-Mar 20 - Module 09 - spatial weights and ESDA
-Mar 27 - Module 10 - inferential spatial statistics (assignment 4 due)
-Apr 03 - Module 11 - TBD
-Apr 10 - Module 12 - spatial networks
-Apr 17 - Module 13 - spatial networks (assignment 5 due)
-Apr 24 - Final projects due
+  - Jan 09 - Module 00 - getting started
+  - Jan 16 - Module 01 - intro to python
+  - Jan 23 - Module 02 - intro to python
+  - Jan 30 - Module 03 - pandas data wrangling and analysis (assignment 1 due)
+  - Feb 06 - Module 04 - pandas data wrangling and analysis
+  - Feb 13 - Module 05 - data visualization (assignment 2 due)
+  - Feb 20 - Module 06 - geopandas and mapping
+  - Feb 27 - Module 07 - web mapping (assignment 3 due)
+  - Mar 06 - Spring break
+  - Mar 13 - Module 08 - APIs, geocoding, geolocation
+  - Mar 20 - Module 09 - spatial weights and ESDA
+  - Mar 27 - Module 10 - inferential spatial statistics (assignment 4 due)
+  - Apr 03 - Module 11 - TBD
+  - Apr 10 - Module 12 - spatial networks
+  - Apr 17 - Module 13 - spatial networks (assignment 5 due)
+  - Apr 24 - Final projects due
 
 ## Assignments and Evaluation
 
