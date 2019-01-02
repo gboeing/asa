@@ -35,7 +35,7 @@ RUN conda install --override-channels -c conda-forge \
     xlwt
 
 # enable jupyter extensions
-#RUN jupyter labextension install @jupyterlab/hub-extension
+RUN jupyter labextension install @jupyterlab/hub-extension
 #RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
 #RUN jupyter labextension install jupyter-leaflet
 
