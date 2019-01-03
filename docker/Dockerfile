@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook:1145fb1198b2
+FROM jupyter/minimal-notebook:a95cb64dfe10
 LABEL maintainer="Geoff Boeing <g.boeing@northeastern.edu>"
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
@@ -11,18 +11,22 @@ USER $NB_UID
 # configure conda
 RUN conda config --set always_yes yes --set show_channel_urls true
 RUN conda config --add channels conda-forge --force
-#RUN conda update --all
+RUN conda update --all
 
 # install python packages with conda
 RUN conda install --override-channels -c conda-forge \
+    beautifulsoup4 \
     bokeh \
     bottleneck \
+    cartopy \
     cython \
     folium \
     geopandas \
+    ipyleaflet \
+    ipywidgets \
     jupyterlab \
     networkx \
-    notebook=5.6 \
+    notebook \
     numexpr \
     numpy \
     osmnx \
@@ -34,10 +38,9 @@ RUN conda install --override-channels -c conda-forge \
     xlrd \
     xlwt
 
-# enable jupyter extensions
-RUN jupyter labextension install @jupyterlab/hub-extension
-#RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
-#RUN jupyter labextension install jupyter-leaflet
+# enable useful jupyter extensions
+RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
+RUN jupyter labextension install jupyter-leaflet
 
 # set a jupyter notebook password for easier launching (no more copying tokens)
 RUN jupyter notebook -y --generate-config
