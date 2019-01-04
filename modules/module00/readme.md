@@ -19,6 +19,8 @@ If you want to install the course software on your own computer (see below for c
 
 ## Before Class This Week
 
+Read the reading materials above.
+
 Lab computers are available to students in this course. They are already set up with the software we will need. This is the easiest way to get going if you're a beginner. *Please note: the instructor cannot troubleshoot installation/execution issues on your own personal computer.*
 
 However, if (and only if) you want to use your own computer in this course, you must complete the following steps in this section *before* class begins and verify that everything is fully working properly.
@@ -48,16 +50,20 @@ Download and install [Git](https://git-scm.com/downloads).
 We will install Python via the Miniconda distribution - a lightweight version of Anaconda that lets us install all of our environment's packages ourselves.
 
   - Download and install the Python 3.7 64-bit [Miniconda](https://conda.io/miniconda.html) installer.
-  - Open a terminal window and run `conda config --add channels conda-forge`
+  - Install it into `C:\Anaconda` (rather than the default), and when prompted, make it the system default python and add it to the PATH
+  - Open a terminal window and run `conda config --add channels conda-forge --force`
+  - Update default packages `conda update --all`
   - Test your installation by running `conda info --all`
 
 Create a virtual environment for the packages we'll use in this course:
 
-  - In the terminal, run `conda create -n ppua7273 python=3 osmnx basemap pillow scikit-learn jupyterlab`
+  - In the terminal, run `conda create -n ppua7237 -c conda-forge --yes python=3 beautifulsoup4 bokeh bottleneck cartopy cython folium geopandas ipyleaflet ipywidgets jupyterlab networkx nodejs notebook numexpr numpy osmnx pillow scikit-learn scipy seaborn statsmodels xlrd xlwt`
   - Then run `activate ppua7237` if you're on Windows or `source activate ppua7237` if you're on Mac.
+  - Install this extension `jupyter labextension install @jupyter-widgets/jupyterlab-manager`
+  - Then install this extension `jupyter labextension install jupyter-leaflet`
   - Then run `python` to launch the python interpreter.
   - In the python interpreter, run `import osmnx` and verify it runs without error.
-  - Create any OS environment variables as needed (this can change from time to time and could require some research on your part).
+  - Create any OS environment variables as needed (this can change from time to time and could require some platform-specific research on your part).
 
 ## In Class This Week
 

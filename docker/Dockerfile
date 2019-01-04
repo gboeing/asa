@@ -27,6 +27,7 @@ RUN conda install --override-channels -c conda-forge \
     jupyterlab \
     networkx \
     notebook \
+    nodejs \
     numexpr \
     numpy \
     osmnx \
