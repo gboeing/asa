@@ -39,7 +39,8 @@ If you're on Windows, you must have Microsoft Windows 10 Professional or Enterpr
 
   1. Download and install the version of [Docker Desktop](https://www.docker.com/products/docker-desktop) for your operating system.
   2. When it's finished, restart your computer.
-  3. Open a terminal window and run `docker run hello-world` to test.
+  3. Open a terminal window and run `docker login` to sign in to docker hub
+  4. Run `docker run hello-world` to check that everything works
 
 ### 4. install git
 
