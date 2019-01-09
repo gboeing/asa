@@ -1,6 +1,6 @@
 # Advanced Spatial Analysis: Docker Container
 
-You need to install [docker](https://www.docker.com/) first.
+You need to install [docker](https://www.docker.com/) first. If you're on Windows, you must have Microsoft Windows 10 Professional or Enterprise 64-bit. If you don't, you'll need to [upgrade](https://support.microsoft.com/en-us/help/12384/windows-10-upgrading-home-to-pro) your OS.
 
 The image is available from https://hub.docker.com/u/gboeing
 
