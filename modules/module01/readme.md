@@ -15,7 +15,8 @@ Please complete these readings *before class begins*.
 
 ## Getting Started
   
-  1. Using git, clone/pull this repo.
+  1. Using git, clone (or pull if you already have it) this repo.
   1. Open a command prompt and change directory to this directory.
+  1. Activate the virtual environment.
   1. Run the command: `jupyter lab`
   1. A browser window will open. Click the notebook to launch it.
