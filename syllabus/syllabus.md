@@ -34,10 +34,10 @@ Coursework will be based on free and/or open-source software including Anaconda 
 ## Schedule
 
   - Jan 09 - Module 00 - getting started
-  - Jan 16 - Module 01 - intro to python
-  - Jan 23 - Module 02 - intro to python
-  - Jan 30 - Module 03 - pandas data wrangling and analysis (assignment 1 due)
-  - Feb 06 - Module 04 - pandas data wrangling and analysis
+  - Jan 16 - Module 01 - intro to python (basic syntax and data types)
+  - Jan 23 - Module 02 - intro to python (functions and control flow)
+  - Jan 30 - Module 03 - pandas data wrangling/analysis (assignment 1 due)
+  - Feb 06 - Module 04 - pandas data wrangling/analysis
   - Feb 13 - Module 05 - data visualization (assignment 2 due)
   - Feb 20 - Module 06 - geopandas and mapping
   - Feb 27 - Module 07 - web mapping (assignment 3 due)
