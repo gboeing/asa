@@ -29,4 +29,4 @@ Run through the Jupyter notebook.
 
 Make sure your entire notebook runs properly and without any errors. Click Kernel > Restart > Clear all outputs and restart. This clears your memory and re-initializes your notebook. Then click Cell > Run all and make sure everything behaves properly.
 
-Submit your notebook file as (ungraded/practice) Assignment 0 on Blackboard by Sunday night. Before submitting, confirm the following to the best of your abilities: does your code fully run? Does it do what it's supposed to do the way it's supposed to do it? Is it well-commented and documented? Is your code clear, straightforward, and reasonably efficient?
+Give your notebook a meaningful filename like `your-lastname-assignment0.ipynb`. Submit your notebook file as (ungraded/practice) Assignment 0 on Blackboard by Sunday night. Before submitting, confirm the following to the best of your abilities: does your code fully run? Does it do what it's supposed to do the way it's supposed to do it? Is it well-commented and documented? Is your code clear, straightforward, and reasonably efficient?
