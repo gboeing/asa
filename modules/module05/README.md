@@ -7,7 +7,7 @@ Today we will introduce Python data visualization with pandas and matplotlib.
 
 ### Readings:
 
-Chapters 9 of McKinney's *Python for Data Analysis*
+Chapter 9 of McKinney's *Python for Data Analysis*. Also make sure you're fluent in the material in chapters 6-8 and 10 assigned in the previous weeks.
 
 ### Class Session:
 
