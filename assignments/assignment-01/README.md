@@ -1,5 +1,6 @@
 # Advanced Spatial Analysis
-# Assignment 1
+
+## Assignment 1
 
 Due Sunday 3 February by 23:59 via Blackboard submission.
 
