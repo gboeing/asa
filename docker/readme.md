@@ -1,4 +1,4 @@
-# Advanced Spatial Analysis: Docker Container
+# Docker Container
 
 You need to install [docker](https://www.docker.com/) first. If you're on Windows, you must have Microsoft Windows 10 Professional or Enterprise 64-bit. If you don't, you'll need to [upgrade](https://support.microsoft.com/en-us/help/12384/windows-10-upgrading-home-to-pro) your OS.
 
@@ -29,7 +29,7 @@ Open web browser and visit [http://localhost:8888](http://localhost:8888)
 ### To access bash in this container:
 
 ```
-docker run --rm -it --name asa -v %cd%:/home/jovyan/work gboeing/asa /bin/bash
+docker run --rm -it -u 0 --name asa -v %cd%:/home/jovyan/work gboeing/asa /bin/bash
 ```
 
 ## Other admin tasks
