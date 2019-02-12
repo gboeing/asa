@@ -32,6 +32,7 @@ RUN conda install --override-channels -c conda-forge \
     numpy \
     osmnx \
     pillow \
+    pip \
     scikit-learn \
     scipy \
     seaborn \
