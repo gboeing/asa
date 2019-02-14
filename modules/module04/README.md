@@ -9,6 +9,8 @@ Today we will continue the previous module's introduction of pandas functionalit
 
 Chapters 7, 8, 10 of McKinney's *Python for Data Analysis*
 
+Consult this [blog post](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6) on optimizing pandas speed.
+
 ### Class Session:
 
 Run through the Jupyter notebook.
