@@ -46,8 +46,8 @@ Coursework will be based on free and/or open-source software including Anaconda 
   - Mar 20 - Module 09 - spatial weights and ESDA
   - Mar 27 - Module 10 - inferential spatial statistics (assignment 4 due)
   - Apr 03 - Module 11 - TBD
-  - Apr 10 - Module 12 - spatial networks
-  - Apr 17 - Module 13 - spatial networks (assignment 5 due)
+  - Apr 10 - Module 12 - spatial networks (assignment 5 due)
+  - Apr 17 - Module 13 - spatial networks
   - Apr 24 - Final projects due
 
 ## Assignments and Evaluation
