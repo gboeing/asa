@@ -1,5 +1,5 @@
 # Advanced Spatial Analysis
-# Module 06: Intro to geopandas and mapping
+# Module 06: Intro to geopandas
 
 ### Overview:
 
