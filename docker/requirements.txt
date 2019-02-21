@@ -10,12 +10,12 @@ ipywidgets
 jupyterlab
 networkx
 nodejs
-notebook
 numexpr
 numpy
 osmnx
 pillow
 pip
+psycopg2
 scikit-learn
 scipy
 seaborn
