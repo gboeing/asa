@@ -26,8 +26,6 @@
 FROM jupyter/base-notebook
 LABEL maintainer="Geoff Boeing <g.boeing@northeastern.edu>"
 
-ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
-
 # symlink and permissions
 USER root
 RUN ln -s /opt/conda/bin/jupyter /usr/local/bin
@@ -37,9 +35,8 @@ COPY requirements.txt /tmp/
 
 RUN conda config --set show_channel_urls true && \
     conda config --prepend channels conda-forge && \
-    conda update --override-channels -c conda-forge --yes -n base conda && \
-    conda update --override-channels -c conda-forge --yes --all && \
-    conda install --override-channels -c conda-forge --yes --file /tmp/requirements.txt && \
+    conda update --strict-channel-priority --yes -n base conda && \
+    conda install --strict-channel-priority --yes --update-all --file /tmp/requirements.txt && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
     jupyter labextension install jupyter-leaflet && \
     conda clean --yes --all && \
@@ -51,3 +48,6 @@ WORKDIR /home/jovyan/work
 
 # set default command to launch when container is run
 CMD ["jupyter", "lab", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+
+# to test, import OSMnx and print its version
+RUN python -c "import osmnx; print(osmnx.__version__)"

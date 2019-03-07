@@ -12,10 +12,12 @@ networkx
 nodejs
 numexpr
 numpy
-osmnx
+osmnx >= 0.9
 pillow
 pip
 psycopg2
+pysal >= 2
+python == 3.*
 scikit-learn
 scipy
 seaborn
