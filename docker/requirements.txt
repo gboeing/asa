@@ -4,7 +4,7 @@ bottleneck
 cartopy
 cython
 folium
-geopandas
+geopandas >= 0.4.1
 ipyleaflet
 ipywidgets
 jupyterlab
