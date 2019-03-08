@@ -107,6 +107,7 @@ dependencies:
   - osmnx=0.9=py_1
   - owslib=0.17.1=py_0
   - packaging=19.0=py_0
+  - palettable=3.1.1=py_0
   - pandas=0.24.1=py37h6538335_0
   - pandoc=2.6=1
   - pandocfilters=1.4.2=py_1
@@ -129,6 +130,7 @@ dependencies:
   - pyproj=1.9.6=py37h1fcc0e4_1000
   - pyqt=5.9.2=py37h6538335_2
   - pyrsistent=0.14.11=py37hfa6e2cd_0
+  - pysal=2.0.0=py_0
   - pyshp=2.1.0=py_0
   - pysocks=1.6.8=py37_1002
   - python=3.7.1=h9460c21_1002
