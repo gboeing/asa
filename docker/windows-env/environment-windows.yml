@@ -15,10 +15,10 @@ dependencies:
   - bottleneck=1.2.1=py37h452e1ab_1001
   - branca=0.3.1=py_0
   - bzip2=1.0.6=hfa6e2cd_1002
-  - ca-certificates=2018.11.29=ha4d7672_0
+  - ca-certificates=2019.3.9=hecc5488_0
   - cartopy=0.17.0=py37h814cdbc_1004
-  - certifi=2018.11.29=py37_1000
-  - cffi=1.12.2=py37hfa6e2cd_0
+  - certifi=2019.3.9=py37_0
+  - cffi=1.12.2=py37hb32ad35_1
   - chardet=3.0.4=py37_1003
   - click=7.0=py_0
   - click-plugins=1.0.4=py_0

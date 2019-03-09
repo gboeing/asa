@@ -1,4 +1,4 @@
-CALL conda update conda -n base --yes
+CALL conda update --strict-channel-priority conda -n base --yes
 CALL conda deactivate
 CALL conda env remove -n asa --yes
 CALL conda create -n asa -c conda-forge --file "../requirements.txt" --yes
