@@ -36,7 +36,7 @@ COPY requirements.txt /tmp/
 RUN conda config --set show_channel_urls true && \
     conda config --prepend channels conda-forge && \
     conda update --strict-channel-priority --yes -n base conda && \
-    conda install --strict-channel-priority --yes --update-all --file /tmp/requirements.txt && \
+    conda install --strict-channel-priority --yes --update-all --force-reinstall --file /tmp/requirements.txt && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
     jupyter labextension install jupyter-leaflet && \
     conda clean --yes --all && \
