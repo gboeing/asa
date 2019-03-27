@@ -36,17 +36,17 @@ Coursework will be based on free and/or open-source software including Anaconda 
   - Jan 09 - Module 00 - getting started
   - Jan 16 - Module 01 - intro to python (basic syntax and data types)
   - Jan 23 - Module 02 - intro to python (functions and control flow)
-  - Jan 30 - Module 03 - pandas data wrangling/analysis (assignment 1 due)
+  - Jan 30 - Module 03 - pandas data wrangling/analysis (assignment 1)
   - Feb 06 - Module 04 - pandas data wrangling/analysis
-  - Feb 13 - Module 05 - data visualization (assignment 2 due)
+  - Feb 13 - Module 05 - data visualization (assignment 2)
   - Feb 20 - Module 06 - geopandas and spatial data
-  - Feb 27 - Module 07 - mapping and web mapping (assignment 3 due)
+  - Feb 27 - Module 07 - mapping and web mapping (assignment 3)
   - Mar 06 - Spring break
   - Mar 13 - Module 08 - APIs, geocoding, geolocation
   - Mar 20 - Module 09 - spatial weights and ESDA
-  - Mar 27 - Module 10 - inferential spatial statistics (assignment 4 due)
-  - Apr 03 - Module 11 - TBD
-  - Apr 10 - Module 12 - spatial networks (assignment 5 due)
+  - Mar 27 - Module 10 - inferential spatial models (assignment 4)
+  - Apr 03 - Module 11 - PostGIS
+  - Apr 10 - Module 12 - spatial networks (assignment 5)
   - Apr 17 - Module 13 - spatial networks
   - Apr 24 - Final projects due
 
@@ -58,6 +58,6 @@ Final grades will be assigned according to the following:
   - 40%: final project
   - 10%: attendance and active participation in the classroom
 
-Assignments are due by 23:59 eastern time on their due date, to be submitted on blackboard. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be graded.
+Assignments are due by 23:59 eastern time on their due date, to be submitted on blackboard. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded.
 
 Assignments will be graded on the following critera: does your code fully run? Does it do what it's supposed to do the way it's supposed to do it? Is it well-commented and documented? Is your code clear, straightforward, and reasonably efficient?
