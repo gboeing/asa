@@ -11,7 +11,7 @@ https://osmnx.readthedocs.io/
 
 ### Class Session:
 
-Run through the Jupyter notebook.
+Run through the Jupyter notebook, then work through the linked examples repo.
 
 ### After-Class Assignment:
 
