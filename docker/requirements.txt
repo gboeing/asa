@@ -4,7 +4,7 @@ bottleneck
 cartopy
 cython
 folium
-geopandas >= 0.4.1
+geopandas
 ipyleaflet
 ipywidgets
 jupyterlab
@@ -12,11 +12,11 @@ networkx
 nodejs
 numexpr
 numpy
-osmnx >= 0.9
+osmnx
 pillow
 pip
 psycopg2
-pysal >= 2
+pysal
 python == 3.*
 scikit-learn
 scipy
